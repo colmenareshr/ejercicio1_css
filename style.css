@@ -9,6 +9,7 @@ body {
   width: 100%;
   max-width: 883px;
   margin: auto;
+  padding-left: 22px;
   font-family: Montserrat, sans-serif;
   font-size: 21px;
   color: #000;
@@ -38,4 +39,74 @@ body {
   opacity: 1;
   letter-spacing: 0px;
   padding-bottom: 25px;
+}
+
+.autor {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 34px;
+}
+
+.autor__text {
+  font-weight: 600;
+  line-height: 28px;
+  color:#000000;
+  opacity: 1;
+}
+
+.preparacao {
+  margin-top: 55px;
+  margin-bottom: 34px;
+  padding-top: 33px;
+  border-top:solid 2px #999;
+  border-bottom: solid 2px #999;
+  display: flex;
+  align-items: center;
+
+}
+
+.preparacao__text {
+  padding-bottom: 33px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.ingredientes {
+  padding-bottom: 34px;
+  border-bottom: solid 2px #999;
+}
+.ingredientes__title {
+  color: #FFB300;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 44px;
+  letter-spacing: 0px;
+  opacity: 1;
+  padding-bottom: 20px;
+}
+.ingredientes__list {
+  padding-left: 27px;
+  padding-bottom: 34px;
+}
+
+.modo__list {
+  padding-left: 27px;
+  padding-bottom: 34px;
+}
+.video {
+  margin-top: 34px;
+  padding-bottom: 50px;
+}
+
+.video iframe {
+  margin-bottom: 34px;
+}
+
+.video a {
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 25px;
+  color: #0037B3;
+  padding-top: 34px;
 }
