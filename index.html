@@ -4,32 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Receita de panquecas | Exercicio Toti</title>
   </head>
   <body>
     <main>
-      <h1>Receta milenaria de Panquecas</h1>
-      <figure>
-        <img
-          src="img/panqueque.webp"
-          width="400"
-          alt="presentacion panquecas"
-        />
-        <figcaption>
-          Foto de
-          <a
-            href="https://www.pexels.com/es-es/@vlada-karpovich?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels"
-            >Vlada Karpovich</a
-          >
-          en <a href="https://pexels.com">Pexels</a>
-        </figcaption>
-      </figure>
-      <h2>Navega fácilmente por la receta de panquecas</h2>
-      <ul>
-        <li><a href="#breve-descripcion">Breve descripción</a></li>
-        <li><a href="#ingredientes">Aquí tienes los ingredientes</a></li>
-        <li><a href="#preparacion">Un video de prepacación</a></li>
-      </ul>
+      <section id="hero">
+        <div class="hero">
+          <img
+            class="hero__img"
+            src="img/panqueque.webp"
+            width="400"
+            alt="presentacion panquecas"
+          />
+        </div>
+
+        <div>
+          <h1 id="hero__title">Receita milenaria de Panquecas</h1>
+        </div>
+      </section>
+      <section class="recita">
+        <h2>Navega fácilmente por la receta de panquecas</h2>
+        <ul>
+          <li><a href="#breve-descripcion">Breve descripción</a></li>
+          <li><a href="#ingredientes">Aquí tienes los ingredientes</a></li>
+          <li><a href="#preparacion">Un video de prepacación</a></li>
+        </ul>
+      </section>
       <h3>Anécdotas de esta receta de panquecas</h3>
       <p>
         Esta <strong>receta de panquecas</strong> la aprendí cuando tenia
@@ -47,6 +48,8 @@
         Pero basta de palabras y veamos cuáles son los ingredientes y un video
         divertido de <strong>cómo preparar panquecas en 2022.</strong>
       </p>
+    </main>
+    <section class="ingredientes">
       <h2>Ingredientes de los penqueques</h2>
       <p>
         Para prepara unos ricos panqueques, que tus hijos adoren necesitaremos:
@@ -80,6 +83,8 @@
         Cuando ya la licuadora, deje de girar, sabrás que la mezcla ya está
         lista.
       </p>
+    </section>
+    <section class="preparacao">
       <h3 id="preparacion">
         Veamos un pequeo video acerca de la preparación de las panquecas
       </h3>
@@ -92,6 +97,6 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-    </main>
+    </section>
   </body>
 </html>
