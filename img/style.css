@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 883px;
+  /* margin: auto; */
+  font-family: Montserrat;
+  font-size: 21px;
+  color: #000;
+  background-color: blueviolet;
+}
